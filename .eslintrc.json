@@ -1,7 +1,7 @@
 {
   "extends": [
-    "eslint:recommended",
     "@nuxt/eslint-config",
+    "eslint:recommended",
     "plugin:prettier/recommended"
   ],
   "rules": {
@@ -9,6 +9,12 @@
     "semi": "off",
     "@typescript-eslint/semi": "off",
     "@typescript-eslint/no-extra-semi": "off",
-    "no-extra-semi": "off"
+    "no-extra-semi": "off",
+    "comma-dangle": "off",
+    "semi-spacing": "off",
+    "quotes": "off",
+    "indent": "off",
+    "arrow-spacing": "off",
+    "brace-style": "off"
   }
 }
