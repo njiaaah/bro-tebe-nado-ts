@@ -19,6 +19,6 @@ export const useTodoListStore = defineStore('todoStore', () => {
     taskList,
     addTaskToList,
     removeTaskFromList,
-    completeTask,
+    completeTask
   }
 })
