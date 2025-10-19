@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.9.0",
+    "@nuxtjs/supabase": "^2.0.1",
     "@pinia/nuxt": "^0.11.2",
     "eslint": "^9.37.0",
     "eslint-plugin-prettier": "^5.5.4",
@@ -29,5 +30,10 @@
   "resolutions": {
     "unimport": "4.1.1"
   },
-  "packageManager": "pnpm@10.18.2"
+  "packageManager": "pnpm@10.18.2",
+  "pnpm": {
+    "overrides": {
+      "cookie": "^0.5.0"
+    }
+  }
 }

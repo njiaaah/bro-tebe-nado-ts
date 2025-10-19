@@ -30,15 +30,13 @@
           label="Save"
           color="success"
           variant="subtle"
-          :loading="loading"
-          :disabled="!state.title?.trim() || loading"
+          :disabled="!state.title?.trim()"
           @click="handleAddTask"
         />
         <UButton
           label="Cancel"
           color="error"
           variant="subtle"
-          :disabled="loading"
           @click="handleCancelTask"
         />
       </div>
